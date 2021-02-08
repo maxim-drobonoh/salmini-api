@@ -1,14 +1,55 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "artworks": [
+    {
+      "id": 1,
+      "title": "Savannah Montana",
+      "image_urls": [
+        "https://i.ibb.co/TcY6DK3/13-Xpy2a-JW.jpg"
+      ],
+      "likes": 455,
+      "description": "Celestial. Limited edition.",
+      "price": 559,
+      "status": "Exhibited",
+      "size": {
+        "width": 100,
+        "height": 100,
+        "thickness": 0.3
+      }
+    },
+    {
+      "id": 2,
+      "title": "Selina Kyle",
+      "image_urls": [
+        "https://i.ibb.co/3B98j7x/2be2ed25914195-5634cb87eb9c1.jpg",
+        "https://i.ibb.co/Lx08szR/digital-art-clocks-concept-art-artwork-wallpaper.jpg"
+      ],
+      "likes": 102,
+      "description": "Mirror and The Mask",
+      "price": null,
+      "status": "Sold",
+      "size": {
+        "width": 110,
+        "height": 110,
+        "thickness": 0.3
+      }
+    },
+    {
+      "id": 3,
+      "title": "Bruce Wayne",
+      "image_urls": [
+        "https://i.ibb.co/rMxwWD5/dylan-artwork-3-1024x640.jpg",
+        "https://i.ibb.co/DzkggHG/Screen-Shot-2016-11-08-at-23-03-27.png",
+        "https://i.ibb.co/vY059RP/dylan-cover-photo-1200x580.jpg"
+      ],
+      "likes": 102,
+      "description": "Mirror and The Mask",
+      "price": null,
+      "status": "Sold",
+      "size": {
+        "width": 74,
+        "height": 92,
+        "thickness": 0.25
+      }
+    }
+  ]
 }
